@@ -1,1 +1,1 @@
-# queasy-webapp
+# queasy-webapp-template
