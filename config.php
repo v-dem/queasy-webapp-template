@@ -20,7 +20,6 @@ return array(
             )
         )
     ),
-    /*
     'db' => array(
         'class' => 'queasy\db\Db',
         'construct' => array(
@@ -34,7 +33,6 @@ return array(
             )
         )
     ),
-    */
     'logger' => array(
         'class' => 'queasy\log\Logger',
         'construct' => array(
