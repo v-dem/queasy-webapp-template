@@ -13,5 +13,5 @@ QuEasy PHP Framework application template.
 
 ### Installation
 
-    composer require v-dem/queasy-webapp-template:master-dev
+    composer create-project --stability dev v-dem/queasy-webapp-template
 
