@@ -11,3 +11,7 @@ QuEasy PHP Framework application template.
 
 *   PHP version 5.3 or higher
 
+### Installation
+
+    composer require v-dem/queasy-webapp-template:master-dev
+
