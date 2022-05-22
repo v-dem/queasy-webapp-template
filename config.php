@@ -13,6 +13,7 @@ return array(
             )
         )
     ),
+
     'db' => array(
         'class' => 'queasy\db\Db',
         'construct' => array(
@@ -26,6 +27,7 @@ return array(
             )
         )
     ),
+
     'logger' => array(
         'class' => 'queasy\log\Logger',
         'construct' => array(
@@ -34,9 +36,11 @@ return array(
             )
         )
     ),
+
     'request' => array(
         'class' => 'queasy\http\ServerRequest'
     ),
+
     'response' => array(
         'class' => 'queasy\http\Response'
     )
