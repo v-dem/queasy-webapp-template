@@ -1,17 +1,10 @@
 <?php
 
 return array(
-    'app' => array(
-        'class' => 'queasy\framework\App',
-        'construct' => array(
-            array(
-                'value' => new queasy\config\Config(QUEASY_ROOT_PATH . 'config' . DIRECTORY_SEPARATOR . 'app.php')
-            ),
-            array(
-                'service' => 'this'
-            )
-        )
-    ),
+    'viewsPath' => QUEASY_ROOT_PATH . 'views/',
+
+    // Services
+
     'router' => array(
         'class' => 'queasy\framework\RegexRouter',
         'construct' => array(
